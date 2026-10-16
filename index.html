@@ -520,6 +520,10 @@ body{background:#fff}.sun-story{padding:0}.marquee{background:transparent!import
 @media(hover:hover){.company-site-link:hover{color:#b96525}}
 @media(max-width:960px){.company-site-link{font-size:10px}}
 </style>
+<style id="smooth-scrolling">
+html{scroll-behavior:smooth!important;scroll-padding-top:100px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}}
+</style>
 </head>
 <body>
 <header id="hdr" class="hero-mode">
@@ -817,5 +821,6 @@ matchMedia('(min-width:961px)').addEventListener('change',e=>{if(e.matches)setMe
 
 
 </script><script type="module" src="assets/site.mjs"></script>
-<script type="module" src="assets/hero.mjs"></script></body>
+<script type="module" src="assets/hero.mjs?v=20261016-smooth"></script><script type="module" src="assets/scroll.mjs"></script>
+</body>
 </html>
